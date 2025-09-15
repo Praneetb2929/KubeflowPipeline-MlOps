@@ -1,33 +1,44 @@
-# KubeflowPipeline-MlOps
-# Installation of Kubeflow Pipelines
+# Kubeflow Pipelines: Zero to Hero with Realtime MLOps Project
 
-The best guide to install Kubeflow or any of its components is the official documentation.
+This project demonstrates how to build and run **Kubeflow Pipelines (KFP)** using real examples, from installation to running ML pipelines in a Kubernetes environment.
 
-https://www.kubeflow.org/docs/started/
+---
 
-In this tutorial, we will learn how to Install, Configure and Use the most popular component of Kubeflow that is KFP (Kubeflow Pipelines).
+## 🚀 Project Overview
 
-## Step 1: Install Docker Desktop 
+Kubeflow Pipelines (KFP) allow building reproducible and scalable ML workflows on Kubernetes.  
+This project includes two example pipelines:
+1. A simple **Hello World pipeline** to demonstrate the KFP setup.
+2. A real-world **Iris classification pipeline** that loads data, trains a model, and outputs accuracy.
 
-Follow the below guide and follow the steps according to your OS Distribution.
+---
 
-https://docs.docker.com/desktop/setup/install/mac-install/
+## ✅ Prerequisites
 
-## Step 2: Install KIND
+- Docker Desktop installed  
+  [Install Docker Desktop](https://docs.docker.com/desktop/setup/install/mac-install/)
 
-Easy way to learn Kubeflow Pipelines is to setup a KIND k8s cluster and configure Kubeflow Pipelines on the cluster.
+- KIND (Kubernetes in Docker) for local cluster setup  
+  [Install KIND](https://kind.sigs.k8s.io/docs/user/quick-start/)
 
-https://kind.sigs.k8s.io/docs/user/quick-start/
+- Kubeflow Pipelines Operator installed on Kubernetes  
+  [Install KFP](https://www.kubeflow.org/docs/components/pipelines/operator-guides/installation/)
 
-## Step 3: Install KFP in Kubernertes
+---
 
-Follow the steps to setup KFP.
+## ⚡ Installation & Setup
 
-https://www.kubeflow.org/docs/components/pipelines/operator-guides/installation/
-
-## Step 4: Install Python kfp package
-
-Create a folder - mkdir kfp
-Create a Python virtual environment - python3 -m venv .kfp
-Source the virtual environment - source .kfp/bin/activate
-Install the package - pip3 install kfp==2.9.0
+1. Create project directory  
+   ```bash
+   mkdir kfp_project && cd kfp_project
+2. Set up Python virtual environment
+   ```bash
+   python3 -m venv .kfp_env
+   source .kfp_env/bin/activate
+3. Install KFP Python SDK
+   ```bash
+   pip install kfp==2.9.0
+4. (Optional) Install additional dependencies
+   ```bash
+   pip install -r requirements.txt
+   
