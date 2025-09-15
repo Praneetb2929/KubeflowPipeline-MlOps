@@ -1,4 +1,4 @@
-# Kubeflow Pipelines: Zero to Hero with Realtime MLOps Project
+# Kubeflow Pipelines: Realtime MLOps Project
 
 This project demonstrates how to build and run **Kubeflow Pipelines (KFP)** using real examples, from installation to running ML pipelines in a Kubernetes environment.
 
