@@ -42,8 +42,9 @@ This project includes two example pipelines:
    ```bash
    pip install -r requirements.txt
    
-✅ Example Pipelines
-1️⃣ Hello World Pipeline
+# ✅ Example Pipelines
+
+## 1️⃣ Hello World Pipeline
 
 Simple demonstration of a pipeline component that prints "Hello, {name}"
 
@@ -51,7 +52,7 @@ Compile and generate YAML:
    ```bash
 python 02_hello_pipeline.py
  ```
-2️⃣ Iris Classification Pipeline
+## 2️⃣ Iris Classification Pipeline
 
 Loads Iris dataset, trains RandomForestClassifier, and outputs accuracy
 
