@@ -42,3 +42,41 @@ This project includes two example pipelines:
    ```bash
    pip install -r requirements.txt
    
+✅ Example Pipelines
+1️⃣ Hello World Pipeline
+
+Simple demonstration of a pipeline component that prints "Hello, {name}"
+
+Compile and generate YAML:
+   ```bash
+python 02_hello_pipeline.py
+ ```
+2️⃣ Iris Classification Pipeline
+
+Loads Iris dataset, trains RandomForestClassifier, and outputs accuracy
+
+Compile and generate YAML:
+   ```bash
+python 03_iris_pipeline.py
+ ```
+## 🚀 Running Pipelines
+
+Once Kubeflow Pipelines are installed and running:
+
+Access KFP UI (e.g., http://<KFP-ENDPOINT>).
+
+Upload compiled YAML file (hello_world_pipeline.yaml or iris_pipeline.yaml).
+
+Create and run pipeline experiments through the UI or use the KFP SDK Client in Python.
+
+## 🧱 Notes
+
+Customize pipeline arguments as needed.
+
+Learn more about advanced features like artifacts, metrics, and parameterization.
+
+## 📚 References
+
+Kubeflow Official Documentation
+
+KFP Python SDK Docs
