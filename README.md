@@ -1,4 +1,4 @@
-# Kubeflow Pipelines: Realtime MLOps Project
+# A hands-on project demonstrating Kubeflow Pipelines from installation to running real ML workflows on Kubernetes.
 
 This project demonstrates how to build and run **Kubeflow Pipelines (KFP)** using real examples, from installation to running ML pipelines in a Kubernetes environment.
 
